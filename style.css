@@ -1,0 +1,232 @@
+.header_section {
+  position: sticky;
+  top: 0px;
+  flex-wrap: wrap;
+}
+nav {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  /* background-color: cadetblue; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 80%;
+  margin-left: 15px;
+}
+#search {
+  display: flex;
+}
+#search input {
+  width: 40%;
+  padding: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border: none;
+  font-size: 15px;
+}
+#search button {
+  width: 20%;
+  border: none;
+  padding: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 100%;
+  color: white;
+  background-color: #184655;
+  font-weight: 900;
+}
+#nav_head > ul > li {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  align-items: center;
+}
+#nav_head a {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(80, 79, 79);
+}
+
+#nav_head > ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  font-size: 20px;
+  list-style-type: none;
+  text-decoration: none;
+}
+#nav_head button {
+  padding: 1%;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: #184655;
+  border: none;
+  box-shadow: 0px 5px 5px gray;
+  color: white;
+  width: 200px;
+  margin-left: 5px;
+}
+
+#nav_head img {
+  width: 35px;
+  padding-inline: 10px;
+}
+
+#hero_bhai {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 50px;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: lavenderblush;
+  background-image: linear-gradient(
+    to bottom right,
+    lavenderblush,
+    lightblue,
+    lavender
+  );
+}
+#bhai_1 {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#bhai_1 h1 {
+  font-size: 50px;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#bhai_1 ul {
+  width: 50%;
+  display: flex;
+  list-style-type: none;
+}
+#bhai_1 li {
+  width: 50%;
+  font-size: 20px;
+}
+
+#latest_blog {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 50px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lavenderblush;
+}
+.main_blog_section {
+  width: 100%;
+  height: 50%;
+}
+#main_row{
+  display: flex;
+  justify-content: space-between;
+}
+#main_blog_start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 10px;
+  background-color: lavenderblush;
+}
+#blog_img {
+  width: 50%;
+  padding: 20px;
+}
+#blog_img img {
+  width: 100%;
+}
+#blog_text {
+  width: 50%;
+  padding: 20px;
+}
+#main_text h1 p {
+  width: 100%;
+}
+
+.More_blogs_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.mb_1 {
+  width: 350px;
+  padding: 30px;
+  background-color: lavender;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mb_img img {
+  width: 100%;
+}
+#mb_row {
+  display: flex;
+  justify-content: space-between;
+}
+#main_footer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  border-radius: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: lavender;
+  background-image: linear-gradient(
+    to bottom right,
+    lavender,
+    lightblue,
+    lavenderblush
+  );
+  justify-content: space-around;
+}
+#footer_img img {
+  width: 100%;
+}
+#footer_text {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#footer_text p {
+  font-size: 30px;
+}
+#footer_text h1 {
+  font-size: 40px;
+}
+#footer_text h3 {
+  font-size: 30px;
+}
+#footer_btn {
+  width: 60%;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  border: none;
+  box-shadow: 0px 5px 5px gray;
+  color: white;
+  background-color: violet;
+  background-image: linear-gradient(to right, violet, navy);
+  height: 100%;
+}
